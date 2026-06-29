@@ -1,0 +1,536 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+     background-color:rgba(0, 0, 0, 0.989);
+}
+
+#general-nav-container{
+    width:100%;
+    height: 65px;
+    background-color: rgba(54, 46, 115, 0.555);
+    position: fixed;
+    
+    
+}
+
+
+
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.nav-container h1{
+    font-size: 25px;
+    font-weight: 800;
+    font-family: "Creepster", system-ui;
+    padding-top: 5px;
+    color: rgba(119, 119, 147, 0.909);
+    
+    
+}
+
+
+
+.nav-links a{
+   font-size: 15px; 
+   font-weight: 548;
+    font-family: "Roboto", sans-serif;
+   padding: 20px;
+   text-decoration: none;
+    color:rgba(255, 255, 255, 0.626);
+    cursor: pointer;
+
+}
+
+.nav-links a:hover{
+    background-color:  rgba(96, 96, 121, 0.292) ;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.452);
+}
+
+#section-1{
+    height: 505px;
+}
+
+.section-1-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+    
+
+}
+
+.section-1-description{
+    width: 40%;
+    padding:50px ;
+}
+
+
+
+.section-1-img-container{
+    width: 60%;
+    
+}
+
+.section-1-img{
+    width: 100%;
+    height: 500px;
+}
+
+.section-1-description h2{
+    font-size: 40px;
+    font-weight: 600;
+     font-family: "Roboto", sans-serif;
+    padding-bottom: 20px;
+    color:rgba(185, 181, 181, 0.587);
+}
+
+.section-1-description span{
+    background: linear-gradient(to bottom right, rgb(59, 59, 118), rgba(26, 25, 25, 0.763));
+    background-size: 400% 400%;
+    animation: gradientMove 2s ease infinite;
+}
+@keyframes gradientMove {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.section-1-description p{
+    font-size: 15px;
+     font-family: "Roboto", sans-serif;
+    color:rgba(206, 200, 200, 0.701);
+    padding-bottom: 80px;
+}
+
+.section-1-description a{
+    padding: 10px 50px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right,  rgba(168, 166, 164, 0.463), rgba(0, 0, 255, 0.265));
+    color: rgba(14, 13, 13, 0.957);
+    cursor: pointer;
+    background-size: 400% 400%;
+    animation: gradientMove 2s ease infinite;
+    
+}
+@keyframes gradientMove {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+#section-2{
+    height: 500px;
+}
+
+
+
+.section-2-container{
+    background-color: black;
+    min-height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.overlay{
+    background:rgba(19, 13, 24, 0.329);
+    height: 550px;
+
+    
+    
+}
+
+.overlay-about{
+    text-align: center;
+    padding: 40px;
+}
+
+
+
+
+
+.overlay h1{
+    font-size: 45px;
+    font-weight: 600;
+     font-family: "Lobster Two", sans-serif;
+     padding-top: 90px;
+     padding-bottom:40px ;
+    background: linear-gradient(to bottom right,  rgba(168, 166, 164, 0.683), rgba(0, 0, 255, 0.226));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     color: transparent;
+     
+    
+    
+    
+}
+
+.overlay p{
+   font-size: 18px;
+   padding-bottom: 50px;
+  color:rgba(206, 200, 200, 0.701);
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.overlay button{
+    height: 40px;
+    width: 180px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(to bottom right,  rgba(168, 166, 164, 0.463), rgba(0, 0, 255, 0.244));
+    cursor: pointer;
+    
+
+}
+
+.overlay-description{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    width: 600px;
+    height: 100px;
+    background-color: rgba(32, 32, 32, 0.566);
+    color: rgba(104, 99, 99, 0.792);
+    margin-top: 150px ;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.overlay-description h2{
+    font-family: "Roboto", sans-serif;
+
+}
+
+#section-3{
+      color: rgba(154, 154, 159, 0.466);
+      height: 650px;
+}
+
+
+.section-3-container{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+
+.section-3-description{
+    text-align: center;
+    
+}
+
+.section-3-description h3{
+    
+    font-size: 50px;
+    font-weight: 600;
+     font-family: "Lobster Two", sans-serif;
+     padding-bottom:40px ;
+     background: linear-gradient(to bottom right,  rgba(168, 166, 164, 0.463), rgba(0, 0, 255, 0.24));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     color: transparent;
+     
+}
+
+.section-3-description p{
+      font-size: 18px;
+   padding-bottom: 50px;
+ color:rgba(206, 200, 200, 0.701);
+    font-family: "Roboto", sans-serif;
+    padding: 0px 20px 40px;
+}
+
+
+.section-3-all-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    
+}
+
+.section-3-css{
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(to bottom right,  rgba(137, 136, 135, 0.201), rgba(0, 0, 255, 0.078));
+    text-align: center;
+    border-radius: 10px;
+    background-size: 400% 400%;
+    animation: gradientMove 4s ease infinite;
+}
+@keyframes gradientMove {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+.section-3-css .material-symbols-outlined{
+    font-size: 30px;
+    color: rgba(0, 255, 255, 0.208);
+    padding-top: 20px;
+}
+
+.section-3-css h4{
+    font-size: 40px;
+    font-weight: 800;
+     font-family: "Lobster Two", sans-serif;
+     padding-bottom: 25px;
+     background: linear-gradient(to bottom right,  rgba(168, 166, 164, 0.463), rgba(0, 0, 255, 0.263));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     color: transparent;
+     
+}
+
+.section-3-css p{
+    font-size:18px;
+   color:rgba(206, 200, 200, 0.701);
+     font-family: "Lobster Two", sans-serif;
+}
+
+#section-4{
+    height: 650px;
+     color:rgba(206, 200, 200, 0.701);
+}
+
+.section-4-all-container{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.section-4-division-1{
+    text-align: center;
+}
+
+.section-4-division-1 h5{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 15px;
+     font-family: "Lobster Two", sans-serif;
+      background: linear-gradient(to bottom right,  rgba(168, 166, 164, 0.463), rgba(0, 0, 255, 0.263));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     color: transparent;
+     
+}
+
+.section-4-division-1 p{
+    font-size: 18px;
+     color:rgba(206, 200, 200, 0.648);
+}
+
+.section-4-division-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.all-contact-info{
+    width: 50%;
+    
+}
+
+.all-form-container{
+    width: 50%;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-info h1{
+    font-size: 25px;
+     font-family: "Lobster Two", sans-serif;
+     padding-left: 80px;
+       background: linear-gradient(to bottom right,  rgba(168, 166, 164, 0.463), rgba(0, 0, 255, 0.263));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     color: transparent;
+     
+}
+
+.email-div{
+    display: flex;
+    align-items:center ;
+    gap: 10px;
+}
+
+.email-div span{
+     color:rgba(206, 200, 200, 0.461); 
+}
+
+.email-div a{
+    text-decoration: none;
+    color:rgba(206, 200, 200, 0.461); 
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height:350px;
+     background: linear-gradient(to bottom right,  rgba(168, 166, 164, 0.463), rgba(0, 0, 255, 0.263));
+     border-radius: 10px;
+     margin-top: 50px;
+    
+}
+
+.form-container h2{
+    font-size: 30px;
+    padding-bottom: 40px;
+    font-family: "Lobster Two", sans-serif;
+       background: linear-gradient(to bottom right,  rgba(168, 166, 164, 0.463), rgba(0, 0, 255, 0.263));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     color: transparent;
+
+}
+
+form label{
+    font-size: 15px;
+     color:rgba(206, 200, 200, 0.274); 
+    text-align: center;
+     font-family: "Lobster Two", sans-serif;
+
+}
+
+form input{
+    width: 300px;
+    height: 30px;
+}
+
+form textarea{
+    width: 350px;
+    height: 40px;
+}
+
+form button{
+    width: 100px;
+    height: 25px;
+    margin-left: 80px;
+    margin-top: 60px;
+    border-radius: 8px;
+    border: none;
+      background: linear-gradient(to bottom right,  rgba(168, 166, 164, 0.463), rgba(0, 0, 255, 0.263));
+      cursor: pointer;
+      background-size: 400% 400%;
+      animation: gradientMove 2s ease infinite;
+}
+@keyframes gradientMove {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+#section-5{
+    background: linear-gradient(to bottom right,  rgba(168, 166, 164, 0.221), rgba(0, 0, 255, 0.094));
+      background-size: 400% 400%;
+      height: 80px;
+      animation: gradientMove 5s ease infinite;
+}
+@keyframes gradientMove {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+footer h1{
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+     font-family: "Lobster Two", sans-serif;
+      color:rgba(248, 242, 242, 0.374); 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

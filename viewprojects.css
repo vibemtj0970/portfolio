@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-color: rgba(10, 10, 10, 0.977);
+      font-family: "Roboto", sans-serif;
+}
+
+.home a{
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+      background: linear-gradient(to bottom right,  rgba(168, 166, 164, 0.929), rgba(0, 0, 255, 0.226));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     color: transparent;
+     cursor: pointer;
+    
+}
+
+.home a:hover{
+     background: linear-gradient(to bottom right,  rgba(163, 159, 155, 0.623), rgba(48, 97, 105, 0.491));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     color: transparent;
+     text-decoration: underline;
+}
+
+#card-section{
+     margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.all-cards-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-containers{
+    display: flex;
+    width: 360px;
+    height: 320px;
+    border: none;
+    box-shadow: 15px 5px 60px -18px;
+    border-radius: 10px;
+       background-image: url(picture/Screenshot\ 2026-06-28\ 224813.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-containers-2{
+    display: flex;
+    width: 360px;
+    height: 320px;
+    box-shadow: 15px 5px 60px -18px;
+    border-radius: 10px;
+       background-image: url(picture/Screenshot\ 2026-06-29\ 135611.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-containers-3{
+    display: flex;
+    width: 360px;
+    height: 320px;
+    box-shadow: 15px 5px 60px -18px;
+    border-radius: 10px;
+       background-image: url(picture/Screenshot\ 2026-06-29\ 140647.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.description {
+    padding-top: 10px;
+    
+}
+
+.description h1{
+    font-size: 20px;
+    font-weight: 600;
+     background: linear-gradient(to bottom right,  rgba(168, 166, 164, 0.683), rgba(0, 0, 255, 0.226));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     color: transparent;
+     
+    
+}
+
+.description p{
+    font-size: 14px;
+    color: rgba(217, 213, 209, 0.573);
+}
+
+
+
+
