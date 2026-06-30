@@ -35,6 +35,8 @@ body{
     padding-top: 10px;
 }
 
+
+
 .nav-container h1{
     font-size: 25px;
     font-weight: 800;
@@ -541,7 +543,85 @@ footer h1{
 
 
 
+@media screen and (max-width:768px){
 
+    .nav-container{
+        flex-direction:column;
+        padding:15px;
+        gap:15px;
+    }
+
+    .nav-links{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+
+    .section-1-container{
+        flex-direction:column-reverse;
+        align-items:center;
+        text-align:center;
+    }
+
+    .section-1-description,
+    .section-1-img-container{
+        width:100%;
+        padding:20px;
+    }
+
+    .section-1-description h2{
+        font-size:32px;
+    }
+
+    .overlay-about{
+        padding:25px;
+    }
+
+    .overlay h1{
+        font-size:35px;
+    }
+
+    .section-3-all-card-container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .section-3-css{
+        width:90%;
+    }
+
+    .section-4-division-2{
+        flex-direction:column;
+    }
+
+    .all-contact-info,
+    .all-form-container{
+        width:100%;
+    }
+
+    .contact-info h1{
+        padding-left:0;
+        text-align:center;
+    }
+
+    .form-container{
+        width:100%;
+        max-width:450px;
+        margin:auto;
+    }
+
+    form input,
+    form textarea{
+        width:100%;
+    }
+
+    footer h1{
+        font-size:11px;
+        padding:20px;
+    }
+
+}
 
 
 
