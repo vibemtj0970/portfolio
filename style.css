@@ -66,7 +66,9 @@ body{
 }
 
 #section-1{
-    height: 505px;
+    min-height: 100vh;
+    height: auto;
+    padding: 60px 0px;
 }
 
 .section-1-container{
@@ -91,7 +93,8 @@ body{
 
 .section-1-img{
     width: 100%;
-    height: 500px;
+    height: auto;
+    display: block;
 }
 
 .section-1-description h2{
@@ -153,7 +156,9 @@ body{
 
 
 #section-2{
-    height: 500px;
+    min-height: 100vh;
+    height: auto;
+    padding: 60px 0px;
 }
 
 
@@ -244,7 +249,9 @@ body{
 
 #section-3{
       color: rgba(154, 154, 159, 0.466);
-      height: 650px;
+      min-height: 100vh;
+      height:auto;
+      padding: 60px 0px;
 }
 
 
@@ -294,7 +301,8 @@ body{
 }
 
 .section-3-css{
-    width: 400px;
+    flex: 1 1 300px;
+    max-width: 400px;
     height: 300px;
     background: linear-gradient(to bottom right,  rgba(137, 136, 135, 0.201), rgba(0, 0, 255, 0.078));
     text-align: center;
@@ -343,7 +351,9 @@ body{
 }
 
 #section-4{
-    height: 650px;
+    min-height: 100vh;
+    height: auto;
+    padding: 60px 0px;
      color:rgba(206, 200, 200, 0.701);
 }
 
@@ -432,7 +442,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width:100%;
+    max-width: 500px;
     height:350px;
      background: linear-gradient(to bottom right,  rgba(168, 166, 164, 0.463), rgba(0, 0, 255, 0.263));
      border-radius: 10px;
@@ -461,19 +472,19 @@ form label{
 }
 
 form input{
-    width: 300px;
+    width:100%;
     height: 30px;
 }
 
 form textarea{
-    width: 350px;
+    width:100%;
     height: 40px;
 }
 
 form button{
     width: 100px;
     height: 25px;
-    margin-left: 80px;
+    margin-left: 32px;
     margin-top: 60px;
     border-radius: 8px;
     border: none;
