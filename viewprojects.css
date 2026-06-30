@@ -47,41 +47,40 @@ body{
 .all-cards-container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
-.card-containers{
-    display: flex;
-    width: 360px;
+.card-containers, 
+.card-containers-2, 
+.card-containers-3{
+    display:block;
+    width:100%;
+    max-width:360px;
     height: 320px;
     border: none;
     box-shadow: 15px 5px 60px -18px;
     border-radius: 10px;
-       background-image: url(picture/Screenshot\ 2026-06-28\ 224813.png);
     background-size: cover;
     background-position: center;
 }
+
+
+
+.card-containers{
+       background-image: url(picture/Screenshot\ 2026-06-28\ 224813.png);
+    }
 
 .card-containers-2{
-    display: flex;
-    width: 360px;
-    height: 320px;
-    box-shadow: 15px 5px 60px -18px;
-    border-radius: 10px;
        background-image: url(picture/Screenshot\ 2026-06-29\ 135611.png);
-    background-size: cover;
-    background-position: center;
-}
+    }
 
 .card-containers-3{
-    display: flex;
-    width: 360px;
-    height: 320px;
-    box-shadow: 15px 5px 60px -18px;
-    border-radius: 10px;
        background-image: url(picture/Screenshot\ 2026-06-29\ 140647.png);
-    background-size: cover;
-    background-position: center;
-}
+    }
+
+
+
 
 .description {
     padding-top: 10px;
@@ -108,3 +107,35 @@ body{
 
 
 
+
+
+
+@media screen and (max-width:768px){
+
+    #card-section{
+        margin:20px;
+    }
+
+    .all-cards-container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card-containers,
+    .card-containers-2,
+    .card-containers-3{
+        width:100%;
+        max-width:350px;
+        height:250px;
+    }
+
+    .description{
+        text-align:center;
+        margin-bottom:30px;
+    }
+
+    .home a{
+        font-size:20px;
+    }
+
+}
