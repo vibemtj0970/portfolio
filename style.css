@@ -557,7 +557,7 @@ footer h1{
 
     .menu{
         display: flex;
-        color: white;
+        color: rgba(171, 162, 162, 0.774);
     }
 
     .nav-links{
@@ -568,7 +568,7 @@ footer h1{
         position: absolute;
         top: 65px;
         right: 0px;
-        background-color: rgb(59, 59, 118);
+         background: linear-gradient(to bottom right,  rgba(191, 187, 184, 0.244), rgba(14, 14, 145, 0.701));
     }
 
     .section-1-container{
