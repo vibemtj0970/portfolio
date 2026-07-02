@@ -26,6 +26,7 @@ body{
      background-clip: text;
      color: transparent;
      cursor: pointer;
+     position: fixed;
     
 }
 
@@ -48,15 +49,17 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .card-containers, 
 .card-containers-2, 
 .card-containers-3{
-    display:block;
-    width:100%;
-    max-width:360px;
+    display:flex;
+    justify-content: space-between;
+    width:300px;
     height: 320px;
     border: none;
     box-shadow: 15px 5px 60px -18px;
@@ -136,6 +139,7 @@ body{
 
     .home a{
         font-size:20px;
+        position: fixed;
     }
 
 }
